@@ -366,32 +366,84 @@
           </div>
 
           <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validate"></div>
-                </div>
-                <div class="col form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validate"></div>
-                </div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                <div class="validate"></div>
-              </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
+           <h1>Feedback Form of Machine Learning Workshop</h1>
+<style>
+h1{
+     margin-right:150px;
+     margin-bottom:200px;
+     font-size:35px;     
+     width:-190px;
+} 	 
+.Contactform{
+                         width:630px;
+			 font-size:30px;
+			 margin-top:-180px;
+			 border:2px solid green;
+			 padding:18px;
+                         border-radius:20px;
+			 height:1100px;
+			 }
+.Contactform label{
+                         width:500px;
+                                  
+	                  	  		
+                        }
+.first
+{
+width:400px;
+}
+.Contactform textarea{
+                      width:400px;
+
+                      }
+.submitbutton{
+              background:#aaff00;
+			  border-radius:20px;
+			  font-size:20px;
+			  color:#fff;
+			  margin-top:500px;
+			  }
+    
+ .Message{
+         height:150px;
+        }  
+.satisfy{
+        font-size:30px;
+        } 
+
+.rating{
+        display:inline-block;
+  
+        }
+</style>
+
+<form class="Contactform" action="https://formsubmit.co/lovishtuteja506@gmail.com" method="POST">
+<img src="Ozone Logo.jpeg" width=450px height=150px class="logo">
+<br>
+<label class="name">Email address</label>
+<input type="email" name="Email address" class="first">
+<label>Name</label>
+<input type="text" name="Name" class="first">
+<br>
+<label class="satisfy">How Satisfy were you with the workshop?</label><br>
+1.<input type="radio" name="status" class="rating">
+2.<input type="radio"  class="rating">
+3.<input type="radio"  class="rating">
+4.<input type="radio"  class="rating">
+5.<input type="radio"  class="rating"><br>
+
+<label class="satisfy">How satisfied were you with the session content?</label><br>
+1.<input type="radio" name="status" class="rating">
+2.<input type="radio"  class="rating">
+3.<input type="radio"  class="rating">
+4.<input type="radio"  class="rating">
+5.<input type="radio"  class="rating"><br>
+<label>Any suggestions for <br>improvement?</label> 
+<input type="text" name="improvement"><br>
+<label>Overall Feedback</label>
+<textarea name="Message" class="Message"></textarea>
+<button class-"submitbutton">Send Message</button>
+</form>
           </div>
 
         </div>
