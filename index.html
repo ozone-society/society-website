@@ -366,59 +366,85 @@
           </div>
 
           <div class="col-lg-6">
-          <html>
-<head><title>Contact Us</title><h1>Feedback Form of Machine Learning Workshop</h1>
+          <h1>Feedback Form of Machine Learning Workshop</h1>
 <style>
 h1{
-     margin-left:160px;
-	 margin-top:100px;
-     } 	 
+     margin-right:150px;
+     margin-bottom:200px;
+     font-size:35px;     
+     width:-190px;
+} 	 
 .Contactform{
-             width:500px;
+                         width:630px;
 			 font-size:30px;
-			 margin:150px;
-			 margin-top:30px;
+			 margin-top:-180px;
 			 border:2px solid green;
-			 padding:20px;
-			 border-radius:20px;
-			 height:500px;
+			 padding:18px;
+                         border-radius:20px;
+			 height:1100px;
 			 }
-.Contactform input,label,textarea{
-                                  width:450px;
-                                  padding:10px;
-								  margin:10px;
-								  
-								 
-								 }
+.Contactform label{
+                         width:500px;
+                                  
+	                  	  		
+                        }
+.first
+{
+width:400px;
+}
+.Contactform textarea{
+                      width:400px;
+
+                      }
 .submitbutton{
-              background:#aaff01;
+              background:#aaff00;
 			  border-radius:20px;
 			  font-size:20px;
 			  color:#fff;
 			  margin-top:500px;
 			  }
     
-.name{
-      margin-bottom:30px;
-	  }       
+ .Message{
+         height:150px;
+        }  
+.satisfy{
+        font-size:30px;
+        } 
 
+.rating{
+        display:inline-block;
+  
+        }
 </style>
-</head>
-<body>
-<form class="Contactform" action="<form action="https://formsubmit.co/lovishtuteja506@gmail.com" method="POST">
-<img src="Ozone Logo.jpeg" width=150px height=150px class="logo">
-<br><br>
-<label class="name">Name</label>
-<input type="text" name="name">
-<label>E-mail</label>
-<input type="text" name="Email">
-<label>Message</label>
-<textarea name="Message"></textarea>
+
+<form class="Contactform" action="https://formsubmit.co/lovishtuteja506@gmail.com" method="POST">
+<img src="Ozone Logo.jpeg" width=450px height=150px class="logo">
+<br>
+<label class="name">Email address</label>
+<input type="email" name="Email address" class="first">
+<label>Name</label>
+<input type="text" name="Name" class="first">
+<br>
+<label class="satisfy">How Satisfy were you with the workshop?</label><br>
+1.<input type="radio" name="status" class="rating">
+2.<input type="radio"  class="rating">
+3.<input type="radio"  class="rating">
+4.<input type="radio"  class="rating">
+5.<input type="radio"  class="rating"><br>
+
+<label class="satisfy">How satisfied were you with the session content?</label><br>
+1.<input type="radio" name="status" class="rating">
+2.<input type="radio"  class="rating">
+3.<input type="radio"  class="rating">
+4.<input type="radio"  class="rating">
+5.<input type="radio"  class="rating"><br>
+<label>Any suggestions for <br>improvement?</label> 
+<input type="text" name="improvement"><br>
+<label>Overall Feedback</label>
+<textarea name="Message" class="Message"></textarea>
 <button class-"submitbutton">Send Message</button>
 </form>
-</body>
-</html>
-          </div>
+    </div>
 
         </div>
 
